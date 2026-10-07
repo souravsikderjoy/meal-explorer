@@ -1,0 +1,27 @@
+
+.food-card {
+  width: 220px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.food-card:hover {
+  transform: scale(1.03);
+}
+
+.food-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.food-name {
+  text-align: center;
+  margin: 12px;
+  font-size: 18px;
+}
+
